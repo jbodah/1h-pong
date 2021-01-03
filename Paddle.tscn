@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 2.13835, 20.0179 )
+
+[node name="Paddle2" type="KinematicBody2D"]
+
+[node name="Sprite" type="ColorRect" parent="."]
+margin_left = -1.53406
+margin_top = -20.7003
+margin_right = 2.46594
+margin_bottom = 19.2996
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0.707184, -0.265167 )
+shape = SubResource( 1 )

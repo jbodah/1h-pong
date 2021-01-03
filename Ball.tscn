@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 1.08927
+
+[node name="Ball" type="KinematicBody2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = -0.677525
+margin_top = -1.3034
+margin_right = 1.32248
+margin_bottom = 0.696604
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0.000484467, 1.90735e-06 )
+shape = SubResource( 1 )
